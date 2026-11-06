@@ -1,22 +1,19 @@
 export const Hero = () => {
     return (
         <div className="flex flex-col items-center justify-center text-center px-4 mt-24">
-            {/* Subtitle / Badge */}
+
             <span className="text-blue-100 font-medium text-sm tracking-wider uppercase mb-3">
                 Welcome to my portfolio
             </span>
 
-            {/* Main Headline */}
             <h1 className="text-4xl sm:text-6xl font-extrabold text-white tracking-tight">
                 Hi, I'm <span className="text-yellow-300">Anup</span>
             </h1>
 
-            {/* Role / Description */}
             <p className="mt-4 text-lg sm:text-xl text-blue-100 max-w-xl">
                 A passionate Frontend Developer building clean, modern, and user-friendly web applications.
             </p>
 
-            {/* Action Buttons */}
             <div className="mt-8 flex flex-wrap gap-4 justify-center">
                 <a
                     href="#projects"
